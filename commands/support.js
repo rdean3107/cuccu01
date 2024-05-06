@@ -29,10 +29,10 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-      const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-      const githubLink = "https://github.com/GlaceYT";
-      const replitLink = "https://replit.com/@GlaceYT";
-      const youtubeLink = "https://www.youtube.com/@GlaceYT";
+      const supportServerLink = "https://discord.gg/pausedayyy";
+      const instagramLink = "https://www.instagram.com/_tuiladuyanh/";
+      const facebookLink = "https://facebook.com/doanphamduyanhhh";
+      const discordLink = "https://discord.gg/pausedayyy";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
@@ -41,7 +41,7 @@ module.exports = {
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+            .setImage('https://cdn.discordapp.com/attachments/1211355355079254138/1215148642659467336/a08282e9e8894228a74a00b7fdc2de01_00_00_00-00_00_02.gif?ex=6639a8dc&is=6638575c&hm=3545db8ef258d3e226480362c30801da470308154633fe0b12c8288eeba73c2f&')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });

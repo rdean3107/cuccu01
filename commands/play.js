@@ -126,7 +126,7 @@ await interaction.followUp({ embeds: [embeds[randomIndex]] });
 }
 
 module.exports = {
-    name: "play",
+    name: "cc",
     description: "Add options too",
     permissions: "0x0000000000000800",
     options: [{
